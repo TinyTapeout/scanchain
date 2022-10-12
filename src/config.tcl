@@ -29,6 +29,8 @@ set ::env(DIE_AREA) "0 0 30 120"
 set ::env(FP_CORE_UTIL) 45
 set ::env(PL_BASIC_PLACEMENT) {1}
 
+set ::env(FP_IO_HLENGTH) 2
+
 # use alternative efabless decap cells to solve LI density issue
 set ::env(DECAP_CELL) "\
     sky130_fd_sc_hd__decap_3 \
